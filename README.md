@@ -1,0 +1,1 @@
+# camp-kinneret-wp-theme-2017
