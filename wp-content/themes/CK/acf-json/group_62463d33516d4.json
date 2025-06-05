@@ -1,0 +1,42 @@
+{
+    "key": "group_62463d33516d4",
+    "title": "Page Sidebar",
+    "fields": [
+        {
+            "key": "field_62463d335e873",
+            "label": "Sidebar Menu",
+            "name": "sidebar_menu_select",
+            "type": "nav_menu",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "save_format": "object",
+            "container": "nav",
+            "allow_null": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-tpl-sidebar.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1648770701
+}

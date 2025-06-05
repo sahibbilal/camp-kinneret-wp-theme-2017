@@ -1,0 +1,314 @@
+{
+
+	"theme_name": "CK",
+
+	"acf_options": {
+		"init": true,
+		"page_title": "Theme Options",
+		"menu_title": "Theme Options",
+		"menu_slug": "theme-options",
+		"subpages": {
+			"subpage_1": {
+				"page_title": "Theme General Settings",
+				"menu_title": "General"
+			},
+			"subpage_2": {
+				"page_title": "Theme Header Settings",
+				"menu_title": "Header"
+			},
+			"subpage_3": {
+				"page_title": "Theme Footer Settings",
+				"menu_title": "Footer"
+			},
+			"subpage_4": {
+				"page_title": "Theme Footer Settings",
+				"menu_title": "404"
+			}
+		}
+	},
+
+	"enqueue_style": {
+		"fonts": "https://fonts.googleapis.com/css?family=Caveat+Brush|Montserrat:300,300i,400,400i,600,600i,700,700i|Poppins:300,400,600,700|Droid+Sans+Mono",
+		"bootstrap": "css/vendor/bootstrap.min.css",
+		"animate": "css/vendor/animate.css",
+		"slick": "css/vendor/slick.css",
+		"style": {
+			"src" : "style.css",
+			"deps": [ ],
+			"ver": "filemtime",
+			"media": "all"
+		}
+	},
+
+	"enqueue_script": {
+		"tether": "https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js",
+		"bootstrap": "js/vendor/bootstrap.min.js", 
+		"scrolltofixed": "js/vendor/jquery-scrolltofixed-min.js",
+		"moment": "js/vendor/moment.js",
+		"momentduration": "js/vendor/moment-duration.js",
+		"slick": "js/vendor/slick.min.js",
+		"script": "js/script.js",
+		"dev2": "js/dev2.js"
+	},
+
+	"register_nav_menus": {
+		"primary": "Main Navigation",
+		"mobile": "Mobile Navigation",
+		"footer": "Footer Navigation"
+	},
+
+	"theme_widgets_init": {
+		"Primary": {
+			"name": "Primary Widget Area",
+			"id": "primary_widget_area"
+		}
+	},
+
+	"enable_thumbnails": true,
+
+	"thumbnails": [
+		[
+			"mega-menu-th",
+			255,
+			0,
+			false
+		],
+		[
+			"home-hero-big",
+			549,
+			500,
+			true
+		],
+		[
+			"home-hero-big-1023",
+			570,
+			375,
+			true
+		],
+		[
+			"home-hero-big-567",
+			290,
+			170,
+			true
+		],
+		[
+			"home-hero-middle",
+			549,
+			300,
+			true
+		],
+		[
+			"home-hero-middle-1023",
+			375,
+			266,
+			true
+		],
+		[
+			"home-hero-middle-567",
+			290,
+			170,
+			true
+		],
+		[
+			"home-hero-small",
+			269,
+			188,
+			true
+		],
+		[
+			"home-hero-small-1023",
+			183,
+			125,
+			true
+		],
+		[
+			"home-hero-small-567",
+			137,
+			68,
+			true
+		],
+		[
+			"full-width",
+			1680,
+			0,
+			false
+		],
+		[
+			"full-width-1023",
+			1140,
+			0,
+			false
+		],
+		[
+			"full-width-767",
+			960,
+			0,
+			false
+		],
+		[
+			"full-width-567",
+			720,
+			0,
+			false
+		],
+		[
+			"full-width-540",
+			540,
+			0,
+			false
+		],
+		[
+			"full-width-320",
+			320,
+			0,
+			false
+		],
+		[
+			"half-width",
+			450,
+			0,
+			false
+		],
+		[
+			"half-width-720",
+			300,
+			0,
+			false
+		],
+		[
+			"two-columns",
+			0,
+			504,
+			false
+		],
+		[
+			"two-columns-767",
+			0,
+			440,
+			false
+		],
+		[
+			"two-columns-567",
+			0,
+			365,
+			false
+		],
+		[
+			"two-columns-320",
+			0,
+			206,
+			false
+		],
+		[
+			"slider-image",
+			920,
+			532,
+			true
+		],
+		[
+			"home-slider-image",
+			570,
+			540,
+			true
+		],
+		[
+			"blog-page-thumbnail",
+			635,
+			445,
+			true
+		],
+		[
+			"blog-post-thumbnail",
+			920,
+			460,
+			true
+		]
+	]
+}
+
+/* ================================================================ */
+/* ========================= EXAMPLE CODE ========================= */
+/* ================================================================ */
+
+/*
+{
+
+	"theme_name" : "CK",
+
+	"acf_options": {
+		"init": true,
+		"page_title": "Theme Options",
+		"menu_title": "Theme Options",
+		"menu_slug": "theme-options",
+		"subpages": {
+			"subpage_1": {
+				"page_title": "Theme General Settings",
+				"menu_title": "General"
+			},
+			"subpage_2": {
+				"page_title": "Theme Header Settings",
+				"menu_title": "Header"
+			},
+			"subpage_3": {
+				"page_title": "Theme Footer Settings",
+				"menu_title": "Footer"
+			}
+		}
+	},
+
+	"register_nav_menus" : {
+		"primary" : "Main Navigation"
+	},
+
+	"enqueue_style": {
+		"style": {
+			"src" : "style.css",
+			"deps": [ ],
+			"ver": "1.0",
+			"media": "all"
+		},
+
+		"simple": "css/simple.css"
+	},
+
+	"enqueue_script": {
+		"script": {
+			"src" : "js/script.js",
+			"deps": [ ],
+			"ver": "1.0",
+			"in_footer": true
+		},
+
+		"simple": "js/simple.js"
+	},
+
+	"theme_widgets_init" : {
+		"Primary" : {
+			"name" : "Primary Widget Area",
+			"id" : "primary_widget_area",
+			"before_widget" : "<div id='%1$s' class='widget %2$s'>",
+			"after_widget" : "</div>",
+			"before_title" : "<h3 class='widget-title'>",
+			"after_title" : "</h3>"
+		}
+	},
+
+	"enable_thumbnails" : true,
+
+	"thumbnails": [
+		[
+			"thumbnail-name-1",
+			800,
+			600,
+			["left", "top"]
+		],
+		[
+			"thumbnail-name-2",
+			400,
+			300,
+			true
+		]
+	]
+
+}
+*/
